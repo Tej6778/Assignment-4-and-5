@@ -1,0 +1,353 @@
+{
+  "id": "cd75402f-2530-4970-878e-46e16e64f89c",
+  "version": "2.0",
+  "name": "Tops Technologies",
+  "url": "https://careercenter.tops-int.com",
+  "tests": [{
+    "id": "e182de69-29c1-4cdd-8105-d3bd2cf86741",
+    "name": "TopsTechnologies",
+    "commands": [{
+      "id": "06352a4d-731b-409f-bf95-34b6e2295b74",
+      "comment": "",
+      "command": "open",
+      "target": "/dashboard",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d33bfb83-2191-4682-8e1d-72e7b0c1d544",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1262x654",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "515ca390-2a11-41ec-87fb-dffbe4a840f7",
+      "comment": "",
+      "command": "click",
+      "target": "linkText=Refer a Friend",
+      "targets": [
+        ["linkText=Refer a Friend", "linkText"],
+        ["css=.tab-list-item:nth-child(7) > .lbListCategory", "css:finder"],
+        ["xpath=(//a[contains(@href, 'https://careercenter.tops-int.com/refer-friend')])[2]", "xpath:href"],
+        ["xpath=//div[2]/div/div/div/div/ul/li[6]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "28fee3ca-1b1c-4bfa-9a86-3cce41fa0ba8",
+      "comment": "",
+      "command": "click",
+      "target": "id=referFirstName",
+      "targets": [
+        ["id=referFirstName", "id"],
+        ["name=first_name", "name"],
+        ["css=#referFirstName", "css:finder"],
+        ["xpath=//input[@id='referFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2dab1143-468f-4b49-ad34-87bb7e7b72e9",
+      "comment": "",
+      "command": "type",
+      "target": "id=referFirstName",
+      "targets": [
+        ["id=referFirstName", "id"],
+        ["name=first_name", "name"],
+        ["css=#referFirstName", "css:finder"],
+        ["xpath=//input[@id='referFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Himanshu"
+    }, {
+      "id": "562fcbac-aaba-4019-bc0b-22235af67ef0",
+      "comment": "",
+      "command": "click",
+      "target": "id=referLastName",
+      "targets": [
+        ["id=referLastName", "id"],
+        ["name=last_name", "name"],
+        ["css=#referLastName", "css:finder"],
+        ["xpath=//input[@id='referLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "0172e6da-5b1e-4a71-b570-60357afab684",
+      "comment": "",
+      "command": "type",
+      "target": "id=referLastName",
+      "targets": [
+        ["id=referLastName", "id"],
+        ["name=last_name", "name"],
+        ["css=#referLastName", "css:finder"],
+        ["xpath=//input[@id='referLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Gulhane"
+    }, {
+      "id": "cef1370f-84ba-40e3-a951-196d9f8faac3",
+      "comment": "",
+      "command": "type",
+      "target": "id=referMobile",
+      "targets": [
+        ["id=referMobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#referMobile", "css:finder"],
+        ["xpath=//input[@id='referMobile']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "7972368645"
+    }, {
+      "id": "945301e6-a7b3-467d-852f-787bf58fd25c",
+      "comment": "",
+      "command": "click",
+      "target": "id=referMobile",
+      "targets": [
+        ["id=referMobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#referMobile", "css:finder"],
+        ["xpath=//input[@id='referMobile']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7129f7d5-26e2-4d62-9f3b-8e9257c1e16a",
+      "comment": "",
+      "command": "type",
+      "target": "id=referMobile",
+      "targets": [
+        ["id=referMobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#referMobile", "css:finder"],
+        ["xpath=//input[@id='referMobile']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "8446944345"
+    }, {
+      "id": "015ae32f-d3ff-46aa-9e31-10778135c8e0",
+      "comment": "",
+      "command": "click",
+      "target": "id=referCollegeName",
+      "targets": [
+        ["id=referCollegeName", "id"],
+        ["name=college", "name"],
+        ["css=#referCollegeName", "css:finder"],
+        ["xpath=//input[@id='referCollegeName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ccb5046b-1892-49b7-9042-2cb89744853a",
+      "comment": "",
+      "command": "type",
+      "target": "id=referCollegeName",
+      "targets": [
+        ["id=referCollegeName", "id"],
+        ["name=college", "name"],
+        ["css=#referCollegeName", "css:finder"],
+        ["xpath=//input[@id='referCollegeName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "Amv, Yavatmal, Maharashtra"
+    }, {
+      "id": "ea8131f9-5d5d-4bc6-b8e3-4cd91f582c68",
+      "comment": "",
+      "command": "click",
+      "target": "id=referEducation",
+      "targets": [
+        ["id=referEducation", "id"],
+        ["name=education", "name"],
+        ["css=#referEducation", "css:finder"],
+        ["xpath=//select[@id='referEducation']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[5]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c9dfc348-74ca-423c-8dce-ea2cc758c068",
+      "comment": "",
+      "command": "select",
+      "target": "id=referEducation",
+      "targets": [],
+      "value": "label=B.E/B.Tech"
+    }, {
+      "id": "736b0d0f-03c2-4a4f-9fcf-cb73812b61c3",
+      "comment": "",
+      "command": "click",
+      "target": "id=referFriendSubmit",
+      "targets": [
+        ["id=referFriendSubmit", "id"],
+        ["css=#referFriendSubmit", "css:finder"],
+        ["xpath=//input[@id='referFriendSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "dee83b15-0df9-489c-abd8-032ad2e43929",
+      "comment": "",
+      "command": "click",
+      "target": "id=referFirstName",
+      "targets": [
+        ["id=referFirstName", "id"],
+        ["name=first_name", "name"],
+        ["css=#referFirstName", "css:finder"],
+        ["xpath=//input[@id='referFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3f5add12-d7f2-4298-bd5d-4623c380504e",
+      "comment": "",
+      "command": "type",
+      "target": "id=referFirstName",
+      "targets": [
+        ["id=referFirstName", "id"],
+        ["name=first_name", "name"],
+        ["css=#referFirstName", "css:finder"],
+        ["xpath=//input[@id='referFirstName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "Praj"
+    }, {
+      "id": "4bf76380-9316-4a94-a081-5f9eb4aac978",
+      "comment": "",
+      "command": "click",
+      "target": "id=referLastName",
+      "targets": [
+        ["id=referLastName", "id"],
+        ["name=last_name", "name"],
+        ["css=#referLastName", "css:finder"],
+        ["xpath=//input[@id='referLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "18edff64-09cb-4c4c-b510-4f9da16e5483",
+      "comment": "",
+      "command": "type",
+      "target": "id=referLastName",
+      "targets": [
+        ["id=referLastName", "id"],
+        ["name=last_name", "name"],
+        ["css=#referLastName", "css:finder"],
+        ["xpath=//input[@id='referLastName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[2]/input", "xpath:idRelative"],
+        ["xpath=//div[2]/input", "xpath:position"]
+      ],
+      "value": "Gulhane"
+    }, {
+      "id": "ae38ddc4-4199-4c70-954e-76a2e09caeba",
+      "comment": "",
+      "command": "click",
+      "target": "id=referMobile",
+      "targets": [
+        ["id=referMobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#referMobile", "css:finder"],
+        ["xpath=//input[@id='referMobile']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c901c7ac-1f71-4f73-9577-5aa1f40f6513",
+      "comment": "",
+      "command": "type",
+      "target": "id=referMobile",
+      "targets": [
+        ["id=referMobile", "id"],
+        ["name=mobile", "name"],
+        ["css=#referMobile", "css:finder"],
+        ["xpath=//input[@id='referMobile']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[3]/div/input", "xpath:idRelative"],
+        ["xpath=//div[3]/div/input", "xpath:position"]
+      ],
+      "value": "8888713254"
+    }, {
+      "id": "a025757e-580f-490a-b448-91c6351f59c1",
+      "comment": "",
+      "command": "click",
+      "target": "id=referCollegeName",
+      "targets": [
+        ["id=referCollegeName", "id"],
+        ["name=college", "name"],
+        ["css=#referCollegeName", "css:finder"],
+        ["xpath=//input[@id='referCollegeName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5153de22-fe30-435d-9744-e6c06c07f658",
+      "comment": "",
+      "command": "type",
+      "target": "id=referCollegeName",
+      "targets": [
+        ["id=referCollegeName", "id"],
+        ["name=college", "name"],
+        ["css=#referCollegeName", "css:finder"],
+        ["xpath=//input[@id='referCollegeName']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[4]/input", "xpath:idRelative"],
+        ["xpath=//div[4]/input", "xpath:position"]
+      ],
+      "value": "AMV, yavatmal, Maharashtra"
+    }, {
+      "id": "04dd5a0b-076c-4631-a192-9ff7a2431bcc",
+      "comment": "",
+      "command": "click",
+      "target": "id=referEducation",
+      "targets": [
+        ["id=referEducation", "id"],
+        ["name=education", "name"],
+        ["css=#referEducation", "css:finder"],
+        ["xpath=//select[@id='referEducation']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[5]/select", "xpath:idRelative"],
+        ["xpath=//select", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d34f74bf-5769-4063-8ff6-4d868b2f951f",
+      "comment": "",
+      "command": "select",
+      "target": "id=referEducation",
+      "targets": [],
+      "value": "label=M.Com."
+    }, {
+      "id": "cb7d763b-4432-420f-83a1-46ed2f1c0de5",
+      "comment": "",
+      "command": "click",
+      "target": "id=referFriendSubmit",
+      "targets": [
+        ["id=referFriendSubmit", "id"],
+        ["css=#referFriendSubmit", "css:finder"],
+        ["xpath=//input[@id='referFriendSubmit']", "xpath:attributes"],
+        ["xpath=//form[@id='referFriendForm']/div/div[6]/input", "xpath:idRelative"],
+        ["xpath=//div[6]/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "c87b8e79-91e4-405e-afa4-e3aa8660c1e0",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["e182de69-29c1-4cdd-8105-d3bd2cf86741"]
+  }],
+  "urls": ["https://careercenter.tops-int.com/"],
+  "plugins": []
+}
